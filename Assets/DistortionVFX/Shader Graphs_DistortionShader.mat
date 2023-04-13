@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ScreenVFX
-  m_Shader: {fileID: -6465566751694194690, guid: a862ec1378a671a49b81d5dd7226161f, type: 3}
+  m_Name: Shader Graphs_DistortionShader
+  m_Shader: {fileID: -6465566751694194690, guid: 8211e840a19b9de4a9c5c02857030207, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,8 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_31f99cf25ea94fca8a0366de2a68bb6b:
-        m_Texture: {fileID: 0}
+    - Texture2D_dba4c06b217749e39a099b37d36c0214:
+        m_Texture: {fileID: 2800000, guid: cdf2c65cfb5b5f446ae5c005e1ac7f2b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,8 +36,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2a71daf0efb64a9aa299b9b8a21ae48b: 666.8
-    - Vector1_3b7b6d4aff8f4e65926ae2bb07c82b85: 1
+    - Vector1_1: 0.29
+    - Vector1_1bfab98d7815413bae3ade4445897955: 1.04
+    - Vector1_900c51a3438a40c3858be495490fa127: 0.089
     m_Colors:
-    - Color_ef42f4e8cced42efa8e68c6a23c95c86: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
+    - Vector2_2017ee9816354be58e7e313ff5e16b3b: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
